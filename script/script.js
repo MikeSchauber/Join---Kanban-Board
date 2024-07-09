@@ -1,7 +1,7 @@
 
-const USERS_URL = "https://join-14fdc-default-rtdb.europe-west1.firebasedatabase.app/";
-const TASKS_URL = "https://join-tasks-default-rtdb.europe-west1.firebasedatabase.app/";
-const CONTACTS_URL = "https://join---contacts-default-rtdb.europe-west1.firebasedatabase.app/";
+const USERS_URL = "https://join-users-default-rtdb.europe-west1.firebasedatabase.app/";
+const TASKS_URL = "https://join-tasks-18246-default-rtdb.europe-west1.firebasedatabase.app/";
+const CONTACTS_URL = "https://join-contacts-default-rtdb.europe-west1.firebasedatabase.app/";
 
 let backgroundColors = [
     "background: rgba(255, 122, 0, 1)",
