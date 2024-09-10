@@ -10,12 +10,15 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
+    height: 100%;
     font-family: "inter";
     font-size: 16px;
     background-color: #F6F7F8;
+    overflow-x: hidden;
 }
 
 .transition-100 {
