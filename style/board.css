@@ -11,7 +11,8 @@ body {
 
 main {
     height: calc(100vh - 96px);
-    margin-top: 96px;
+    position: relative;
+    top: 96px;
     margin-left: 232px;
 }
 
@@ -317,10 +318,11 @@ path {
     main {
         height: calc(100vh - 80px);
         margin-left: 0;
+        top: 80px;
     }
 
     .board-header {
-        margin-top: 48px;
+        padding-top: 48px;
     }
 
     .board-categories {

@@ -3,13 +3,15 @@
  * @returns {string} HTML string for the "Add new contact" button.
  */
 function renderNewContactButton() {
-    return /*html*/ `
+  return /*html*/ `
         <button class="add-new-contact-button" onclick="openAddContactOverlay();">
             <span>Add new contact</span>
             <img class="" src="../assets/icons/add-person.svg" alt="">
         </button>
-        <img class="add-person-icon bg-darkblue" id="add-person-icon" onclick="openAddContactOverlay()" src="../assets/icons/add-person.svg" alt="">
-    `;
+        <div class="add-person-icon bg-darkblue">
+        <img id="add-person-icon" onclick="openAddContactOverlay()" src="../assets/icons/add-person.svg" alt="">
+        </div>
+     `;
 }
 
 /**
@@ -18,13 +20,13 @@ function renderNewContactButton() {
  * @returns {string} HTML string for the capital letter header.
  */
 function renderCapitalLetter(capitalLetter) {
-    return /*html*/ `
+  return /*html*/ `
         <div class="contacts-list-box">
             <h3>${capitalLetter}</h3>
         </div>
         <div class="contacts-line"></div>
     `;
-};
+}
 
 /**
  * Renders a single contact entry in the contact list.
@@ -32,7 +34,7 @@ function renderCapitalLetter(capitalLetter) {
  * @returns {string} HTML string for the contact entry.
  */
 function renderContact(contact) {
-    return /*html*/ `
+  return /*html*/ `
         <div class="contacts-list-box contacts-list-box-entry" onclick="showSingleContactView(this, '${contact.color}', '${contact.initials}', '${contact.name}', '${contact.email}', '${contact.phone}')">
             <div class="contacts-profile-badge flex-center" style="background-color: ${contact.color};">${contact.initials}</div>
             <div class="contacts-list-name-and-email">
@@ -41,4 +43,4 @@ function renderContact(contact) {
             </div>
         </div>                
     `;
-};
+}
