@@ -13,7 +13,7 @@ async function openAddTaskInBoard(status) {
         setTimeout(() => {
             document.getElementById("newTaskContainer").style.transform = "translateX(0px)";
             changeUrgency("mid");
-        }, 100);
+        }, 50);
     } else {
         await statusReset(status);
         goToAddTask();
