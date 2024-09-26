@@ -266,6 +266,7 @@ function clearAllInputs() {
   document.getElementById("taskDescription").value = "";
   document.getElementById("taskDate").value = "";
   document.getElementById("categoryInput").value = "Select task category";
+  document.getElementById("subtasksInput").value = "";
 }
 
 /**
