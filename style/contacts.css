@@ -48,6 +48,7 @@
   background: hsl(0, 0%, 60%);
 }
 
+
 .contacts-list::-webkit-scrollbar-thumb:active {
   background: hsl(0, 0%, 54%);
 }
